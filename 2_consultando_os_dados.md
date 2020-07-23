@@ -47,8 +47,7 @@ Filtrando por um campo
 	}).pretty()
 	
 Filtrando por mais de um campo
-
-	Filtrando com mais de um campo
+	
 	> db.alunos.find({
 		"nome" : "Pedro",
 		"habilidades.nome": "Inglês"
@@ -93,10 +92,10 @@ Consulta com IN no lugar do OR
 
 [Operadores](https://docs.mongodb.com/manual/reference/operator/)
 
-[https://docs.mongodb.com/manual/reference/operator/query/or/](Operador OR)
+[Operador OR](https://docs.mongodb.com/manual/reference/operator/query/or/)
 
-[https://docs.mongodb.com/manual/reference/operator/query/in/](Operador IN)
+[Operador IN](https://docs.mongodb.com/manual/reference/operator/query/in/)
 
-[https://docs.mongodb.com/manual/reference/operator/query/and/](Operador AND)
+[Operador AND](https://docs.mongodb.com/manual/reference/operator/query/and/)
 
-[https://docs.mongodb.com/manual/reference/operator/query/not/](Operador NOT)
+[Operador NOT](https://docs.mongodb.com/manual/reference/operator/query/not/)

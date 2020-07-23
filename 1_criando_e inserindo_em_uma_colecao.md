@@ -4,7 +4,7 @@
 
 [Manual](https://docs.mongodb.com/manual/)
 
-[Variável de ambiente PATH]
+**Variável de ambiente PATH**
 
 Configurar caso NÃO esteja no diretório default (/usr/bin/mongo)
 
@@ -22,10 +22,9 @@ Configurar caso NÃO esteja no diretório default (/usr/bin/mongo)
 [Inicializar](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/)
 	
 	// Servidor
-	$ mongod --dbpath path\onde\inicializara\mongodb
-	
+	$ mongod --dbpath path\onde\inicializara\mongodb	
 	OU
-	Criar o diretório /data/db e dar permissão de acesso ao usuário e então executar o comandoeee e e 
+	Criar o diretório /data/db e dar permissão de acesso ao usuário e então executar o comando mongod 
 	$ mongod
 	
 	// Client  (em outro terminal)

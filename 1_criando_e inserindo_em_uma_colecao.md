@@ -1,8 +1,13 @@
 ## Preparar ambiente
 
-[Download MongoDB Community Server](https://www.mongodb.com/try/download/community) | [Manual instalação](https://docs.mongodb.com/manual/administration/install-community/)
+[Manual MongoDB](https://docs.mongodb.com/manual/)
 
-[Manual](https://docs.mongodb.com/manual/)
+Realizar download do MongoDB Community Server (selecionar versão e SO)
+
+	[Download MongoDB Community Server](https://www.mongodb.com/try/download/community)
+	[Manual instalação](https://docs.mongodb.com/manual/administration/install-community/)
+
+Ou via linha de comando com apt [Install MongoDB Community Edition on Ubuntu](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu)
 
 **Variável de ambiente PATH**
 

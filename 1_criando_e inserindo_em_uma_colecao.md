@@ -21,8 +21,13 @@ Configurar caso NÃO esteja no diretório default (/usr/bin/mongo)
 
 [Inicializar](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/)
 	
+	// Na pasta onde será criado o banco Mongo, criar pasta para salvar os arquivos
+	$ mkdir db
+	
 	// Servidor
-	$ mongod --dbpath path\onde\inicializara\mongodb	
+	$ mongod  --dbpath path\onde\inicializara\mongodb		
+	$ mongod  --dbpath ~/IdeaProjects/pessoa/db
+	
 	OU
 	Criar o diretório /data/db e dar permissão de acesso ao usuário e então executar o comando mongod 
 	$ mongod
